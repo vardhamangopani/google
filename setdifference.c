@@ -21,8 +21,8 @@ int sumBitDifferences(int arr[], int n)
 }
 int main()
 {
-    int arr[] = {1, 2};
-    int n = sizeof arr / sizeof arr[0];
-    printf("%d\n", sumBitDifferences(arr, n));
+    int arr[] = {1, 2, 3, 4, 5, 6};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    printf("%d\n%d\n", n,sumBitDifferences(arr, n));
     return 0;
 }
