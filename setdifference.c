@@ -1,5 +1,4 @@
-#include <stdio.h>
- 
+#include <stdio.h> 
 int sumBitDifferences(int arr[], int n)
 {
     int ans = 0;  // Initialize result
